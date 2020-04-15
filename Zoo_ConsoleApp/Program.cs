@@ -8,7 +8,7 @@ namespace Zoo_ConsoleApp
         {
             Console.WriteLine("Hello Zoo!");
 
-            Dyr elefant = new Dyr("Elefant");
+            Dyr elefant = new Dyr("Elefant", 25);
 
             Console.WriteLine(elefant.DyreNavn);
 
